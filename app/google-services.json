@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "159360013165",
+    "project_id": "arthimetic-b577e",
+    "storage_bucket": "arthimetic-b577e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159360013165:android:17e701858785773659c064",
+        "android_client_info": {
+          "package_name": "com.example.arthimetic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159360013165-ghs4ja1ja12503k99sqlf6o5rmaru39b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqnilJyq0Y_lWl0mQ0Ca5MGPRLRcu7K1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159360013165-ghs4ja1ja12503k99sqlf6o5rmaru39b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

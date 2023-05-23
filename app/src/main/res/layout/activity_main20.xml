@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity20">
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="227dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="211dp"
+        android:layout_weight="1"
+        android:hint="Result"
+        android:textColor="#090909"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edittext12"
+        android:layout_width="229dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="14dp"
+        android:ems="10"
+        android:hint="Enter the Numer"
+        android:inputType="numberSigned|number|numberDecimal" />
+
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="13dp"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="12dp"
+        android:layout_toStartOf="@+id/edittext12"
+        android:text="Enter Number"
+        android:textColor="#040303"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="214dp"
+        android:text="Result"
+        android:textColor="#040303"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="87dp"
+        android:text="Result" />
+
+    <Button
+        android:id="@+id/button53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="235dp"
+        android:text="Clear" />
+</RelativeLayout>
